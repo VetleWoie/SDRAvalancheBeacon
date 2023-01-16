@@ -1,0 +1,74 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=2cm]{geometry}
+\usepackage[table,xcdraw]{xcolor}
+\usepackage{hyperref}
+\title{Autonomous Avalanche Rescue Drone Proposal}
+\makeatletter
+\renewcommand\@date{{%
+  \vspace{-\baselineskip}%
+  \large\centering
+  \begin{tabular}{@{}c@{}}
+    Vetle Hofsøy-Woie \\
+    \normalsize \href{mailto:vho023@uit.no}{vho023@uit.no} \quad \href{tel:47824556}{478 24 556}
+  \end{tabular}%
+%   \quad and\quad
+%   \begin{tabular}{@{}c@{}}
+%     Second Author\textsuperscript{2} \\
+%     \normalsize second.author@email.com
+%   \end{tabular}
+
+  \bigskip
+
+%   \textsuperscript{1}Department of Computer Science, The Arctic University of Norway\par
+
+  \bigskip
+
+  \today
+}}
+
+\begin{document}
+
+\maketitle
+
+\section*{Proposal}
+The business idea is an autonomous drone equipped with an avalanche beacon to remedy rugged terrain while searching for a potential avalanche victim. The drone would not get hindered by such terrain and could quickly move in any direction on the avalanche surface. Having the drone be autonomous would mean a human rescuer could start digging out a victim while the drone searches the rest of the avalanche for another victim. 
+The drone could drastically decrease the search time for potential victims, increasing the likeliness of survival.
+
+Rescue services could also use the autonomous drone to give feedback on the positions of victims in hard-to-reach or high-risk areas. In addition, the drone could create a map of the avalanche, which the rescue services could use to create a better plan of attack.
+
+A third use case for the drone could be deploying drones near avalanche-prone mountainsides. Seismic sensors could activate the drone by detecting avalanches in the respective mountainside and start a search before the rescue services arrive.
+
+\section*{Problem}
+On average, one hundred persons are killed by avalanches in Europe each year\cite{avalancheStat}. In Norway alone, an average of nine persons succumb, and another 71 persons get injured from avalanches\cite{varsomStat} each year. For an avalanche victim, time is of the absolute essence. If a rescuer finds the victim within 15 minutes of burial, then the chances of survival are roughly 93\%. However, afterward, the survival rate quickly drops to about 30\%. 
+
+A regular avalanche rescue search is carried out by a human using a radio receiver to receive radio signals from the buried victim with a radio transceiver strapped to his body. This search is hard work for the rescuer and demands a high physique. The rescuer first has to run in a zig-zag motion across the avalanche area, searching for a radio signal. Then the rescuer has to follow the path of the strongest radio signal towards the victim before the rescuer starts to dig. The avalanche can be up to several hundred meters wide, and the terrain is often steep and challenging; in other words, quite tricky for a human to run in. In incidents with several victims, the rescuer has to decide whether to dig after an identified victim or mark the spot and search for the next victim. If there is only one rescuer, then incidents with multiple buried victims will almost always result in fatalities.
+
+\section*{What has been done before}
+A master thesis from Uppsala University in Sweden attempted to create a proof of concept of this idea\cite{uppsala}. The thesis used a drone to receive signals from an avalanche transceiver, but it did no work to make the drone autonomously search. The main problem with this proof of concept was that they only achieved a range of about six meters. Moving the antenna further from the drone or leverage a computer's ability to store signal information could potentially remedy this range issue. In 2016 a master thesis from UiT did a literature study for the use of drones in avalanche rescue\cite{litstudy}. This thesis concludes that there are few to no products like this on the market. The thesis states that there have been several successful attempts to use drones for avalanche searches, but all rely on a human operator.
+
+\section*{Customers}
+The most apparent customers of this product are rescue services such as the red cross, the police, the ambulance, and similar services. They could use this product, as mentioned, to gather better intel on avalanche incidents. Other potential customers could be ski facilities that lie close to avalanche terrain; these facilities could deploy the drone, as mentioned earlier, near high-risk pistes. Finally, depending on the size of the drone, regular consumers could also be potential customers. If the drone is small enough that a consumer can easily carry it, we could sell the product to supplement traditional avalanche beacons.
+
+\section*{Funding}
+It is vital to test that an avalanche beacon can achieve good enough range despite the disturbances from a drone. Unfortunately, this is hard to simulate on a computer because of the number of parameters present. Therefore this project needs funding to build a drone, build a radio receiving computer, and an avalanche beacon for testing.
+
+\section*{Further work}
+After producing a working prototype, the next step is to talk to potential customers about what they want from the product. Preferably drone technology students could help make the necessary hardware while computer science students create the codebase. Finally, when a minimum viable product is available, We would reach out to the red cross and other rescue services to test the system and uncover flaws or new ideas. 
+
+
+\begin{thebibliography}{9}
+\bibitem{varsomStat}
+Varsom. "Snøskredulykker- og hendelser" varsom.no. Received from: \url{https://varsom.no/ulykker/snoskredulykker-og-hendelser/} (Read: \date{09.09.21})
+\bibitem{avalancheStat}
+ European Avalanche Warning Services. "FATALITIES" avalanches.org. Received from: \url{https://www.avalanches.org/fatalities/} (Read: \date{09.09.21})
+\bibitem{uppsala}
+ R. Hedlund. "Design of a UAV-based radio
+receiver for avalanche beacon
+detection using software defined
+radio and signal processing," Master Thesis, Faculty of nature sciences, Uppsala University, Uppsala, 2019, [Online] Recieved from: \url{https://www.diva-portal.org/smash/get/diva2:1288305/FULLTEXT02.pdf/}
+\bibitem{litstudy}
+A.Albrigtsen. "The application of unmanned aerial vehicles for snow avalanche search and rescue", Master Thesis, Faculty of technology, The arctic university of Norway, Tromsø, 2016, [Online] Recieved from: \url{https://munin.uit.no/bitstream/handle/10037/9631/thesis.pdf?sequence=2}
+\end{thebibliography}
+\end{document}
+

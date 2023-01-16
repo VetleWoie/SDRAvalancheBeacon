@@ -1,0 +1,205 @@
+Received: from OLAP279MB0021.NORP279.PROD.OUTLOOK.COM (2603:10a6:e10:6::9) by
+ OL1P279MB0259.NORP279.PROD.OUTLOOK.COM with HTTPS; Tue, 8 Nov 2022 20:51:06
+ +0000
+Received: from SVAP279MB0221.NORP279.PROD.OUTLOOK.COM (2603:10a6:f10:7::9) by
+ OLAP279MB0021.NORP279.PROD.OUTLOOK.COM (2603:10a6:e10:6::9) with Microsoft
+ SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.5791.25; Tue, 8 Nov 2022 20:51:05 +0000
+Received: from SVAP279MB0221.NORP279.PROD.OUTLOOK.COM
+ ([fe80::3a6b:c4d:67a9:edc4]) by SVAP279MB0221.NORP279.PROD.OUTLOOK.COM
+ ([fe80::3a6b:c4d:67a9:edc4%7]) with mapi id 15.20.5791.026; Tue, 8 Nov 2022
+ 20:51:05 +0000
+From: Juha Vierinen <juha-pekka.vierinen@uit.no>
+To: =?Windows-1252?Q?Vetle_Hofs=F8y-Woie?= <vetle.hofsoy-woie@uit.no>
+Subject: Re: Avalanche drone project as master thesis
+Thread-Topic: Avalanche drone project as master thesis
+Thread-Index: AQHY86CZEg5yVrfP/kydLbYw6lUbra41flWN
+Date: Tue, 8 Nov 2022 20:51:05 +0000
+Message-ID:
+	<SVAP279MB0221F6A8C83D0FFD1CC2C6CAD83F9@SVAP279MB0221.NORP279.PROD.OUTLOOK.COM>
+References:
+	<OL1P279MB02597091B1F44D5321D19B91C03F9@OL1P279MB0259.NORP279.PROD.OUTLOOK.COM>
+In-Reply-To:
+	<OL1P279MB02597091B1F44D5321D19B91C03F9@OL1P279MB0259.NORP279.PROD.OUTLOOK.COM>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: SVAP279MB0221.NORP279.PROD.OUTLOOK.COM
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id:
+	93796fed-ff9d-4e03-d534-08dac1caf455
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-ms-publictraffictype: Email
+authentication-results: dkim=none (message not signed)
+ header.d=none;dmarc=none action=none header.from=uit.no;
+x-ms-office365-filtering-correlation-id: 93796fed-ff9d-4e03-d534-08dac1caf455
+x-ms-traffictypediagnostic: SVAP279MB0221:EE_|OLAP279MB0021:EE_
+x-microsoft-antispam: BCL:0;
+x-forefront-antispam-report:
+	CIP:255.255.255.255;CTRY:;LANG:en;SCL:-1;SRV:;IPV:NLI;SFV:SKI;H:SVAP279MB0221.NORP279.PROD.OUTLOOK.COM;PTR:;CAT:NONE;SFS:;DIR:INB;
+x-ms-exchange-crosstenant-authas: Internal
+x-ms-exchange-crosstenant-authsource: SVAP279MB0221.NORP279.PROD.OUTLOOK.COM
+x-ms-exchange-crosstenant-network-message-id:
+	93796fed-ff9d-4e03-d534-08dac1caf455
+x-ms-exchange-crosstenant-originalarrivaltime: 08 Nov 2022 20:51:05.2854 (UTC)
+x-ms-exchange-crosstenant-fromentityheader: Hosted
+x-ms-exchange-crosstenant-id: 4e7f212d-74db-4563-a57b-8ae44ed05526
+x-ms-exchange-crosstenant-mailboxtype: HOSTED
+x-ms-exchange-crosstenant-userprincipalname:
+	V7U6hGsH+PqC4T0xwOLm6R6QxAU2t4p/Fj0qXtKIu1H/kWfzp+6V2yfXxOw+SvjZ
+x-ms-exchange-transport-crosstenantheadersstamped: OLAP279MB0021
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506478)(944626604)(920097)(425001)(930097);
+X-Microsoft-Antispam-Message-Info:
+	YZOJH5O5NCWCqu3b4i52yrxHj1rqoGvXlKubivPM5zotoU9e6Bxc1I6YG2n4XZixvWg2IOmeuMYDL048zZmrRSsEny9FWRUnSISSDlkN4E3naKnUkdr8gho2YMHfqYRftKfR+Ijp6aQwmz7AaYMVv39H1pS6l01n5u3wDIbnobZzaQZ9VLSFnuAFApzV4BA/XBzSWCiA1MUF/Xeifxcg+BamKTfO5MIXQb9YAZgW8btqbfhSQvOvVWcGd20pU2ph3DXz9o04jvUTSonnwy9swnglzxTnvXeNV81L7LQDeulYl2kAAj7UkxkFH09P7dngXoAtAUSKtC2WYbyEV0iizOgkKHIB4T/8KPq2ZqHmrdKH1k/kpB4RryiuQ9zHiueGaW3BkPtCwNTFiHE76kMnGEfcrdxipDyBYCukl/BUpWKnFpPdIbgl1KiKQFJzhJ4/5EqV8OuVH57b62AFTHqyLEowUTidFH2yaGDtQKdEeUcOHFqZ7jT/rjYHeJIA4T3/lpVyCevcp8jb6ZRojIYxTzcCMvVW/C7hHEVpr9IbxZKsL4juF7YiP1GKt3GSGxUWLEiURMb2GBbvPvWiJxMay0u8aJMLanNLBThP9WIM/9mfnNq/tAkDRMAvcBJ7K+J6Vh/crPWzq1PbarOJnBaPEiSm7uGyPNK3dmjwtRGDiVY5CaVXXlj/lyg5kfQ4iAT9md833E/qhXzMi6LzQYyRpkNdK7vSHQwPiJgGp4bftLZPYezf63F0mQC/Gekt3eS+I8g07yZjIWvcly2GA4zdgt6XW7Ig+NUfTWY2v87rQzT2hYaq5jOOQgI8ClrVUgYsPtYUrc924ptUmoPhY6pTiw==
+Content-Type: multipart/alternative;
+	boundary="_000_SVAP279MB0221F6A8C83D0FFD1CC2C6CAD83F9SVAP279MB0221NORP_"
+MIME-Version: 1.0
+
+--_000_SVAP279MB0221F6A8C83D0FFD1CC2C6CAD83F9SVAP279MB0221NORP_
+Content-Type: text/plain; charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+You could ask Sveinung Olsen. You=92d want a resonant loop antenna for the =
+avalanche beacon frequency. The ferrite core will help make it smaller.
+
+I think we figured out the physics of this nicely. It=92s a small magnetic =
+dipole, with mostly near field radiation, which gave us the 1/R^6 dependenc=
+e in power.
+
+Juha
+________________________________
+From: Vetle Hofs=F8y-Woie <vetle.hofsoy-woie@uit.no>
+Sent: Tuesday, November 8, 2022 7:40:37 PM
+To: Juha Vierinen <juha-pekka.vierinen@uit.no>
+Subject: Avalanche drone project as master thesis
+
+Hi Juha,
+I discussed my avalanche drone idea with Anders Andersen here at IFI as a p=
+ossible master's thesis, and he was interested in supervising such an assig=
+nment.
+However, I might need some help from time to time with the signal processin=
+g part.
+Would you be interested in being a kind of secondary supervisor?
+Of course, if you don't have time, I fully understand.
+
+I think that your responsibilities would mostly just be helping out with si=
+gnal processing if that is needed.
+
+Also, if you know anyone who could help me create the antenna I need, I wou=
+ld greatly appreciate that.
+
+Best regards
+- Vetle
+
+--_000_SVAP279MB0221F6A8C83D0FFD1CC2C6CAD83F9SVAP279MB0221NORP_
+Content-Type: text/html; charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DWindows-1=
+252">
+</head>
+<body>
+<div dir=3D"ltr">
+<div></div>
+<div>
+<div dir=3D"ltr">You could ask Sveinung Olsen. You=92d want a resonant loop=
+ antenna for the avalanche beacon frequency. The ferrite core will help mak=
+e it smaller.</div>
+<div dir=3D"ltr"><br>
+</div>
+<div dir=3D"ltr">I think we figured out the physics of this nicely. It=92s =
+a small magnetic dipole, with mostly near field radiation, which gave us th=
+e 1/R^6 dependence in power.</div>
+<div id=3D"ms-outlook-mobile-signature">
+<div><br>
+</div>
+<div style=3D"color: rgb(33, 33, 33); background-color: rgb(255, 255, 255);=
+" dir=3D"auto">
+Juha</div>
+</div>
+</div>
+</div>
+<hr style=3D"display:inline-block;width:98%" tabindex=3D"-1">
+<div id=3D"divRplyFwdMsg" dir=3D"ltr"><font face=3D"Calibri, sans-serif" st=
+yle=3D"font-size:11pt" color=3D"#000000"><b>From:</b> Vetle Hofs=F8y-Woie &=
+lt;vetle.hofsoy-woie@uit.no&gt;<br>
+<b>Sent:</b> Tuesday, November 8, 2022 7:40:37 PM<br>
+<b>To:</b> Juha Vierinen &lt;juha-pekka.vierinen@uit.no&gt;<br>
+<b>Subject:</b> Avalanche drone project as master thesis</font>
+<div>&nbsp;</div>
+</div>
+<style type=3D"text/css" style=3D"display:none">
+<!--
+p
+	{margin-top:0;
+	margin-bottom:0}
+-->
+</style>
+<div dir=3D"ltr">
+<div class=3D"x_elementToProof" style=3D"font-family:Calibri,Arial,Helvetic=
+a,sans-serif; font-size:12pt; color:rgb(0,0,0); background-color:rgb(255,25=
+5,255)">
+Hi Juha,</div>
+<div class=3D"x_elementToProof" style=3D"font-family:Calibri,Arial,Helvetic=
+a,sans-serif; font-size:12pt; color:rgb(0,0,0); background-color:rgb(255,25=
+5,255)">
+I discussed my avalanche drone idea with Anders Andersen here at IFI as a p=
+ossible master's thesis, and he was interested in supervising such an assig=
+nment.</div>
+<div class=3D"x_elementToProof" style=3D"font-family:Calibri,Arial,Helvetic=
+a,sans-serif; font-size:12pt; color:rgb(0,0,0); background-color:rgb(255,25=
+5,255)">
+However, I might need some help from time to time with the signal processin=
+g part.</div>
+<div class=3D"x_elementToProof" style=3D"font-family:Calibri,Arial,Helvetic=
+a,sans-serif; font-size:12pt; color:rgb(0,0,0); background-color:rgb(255,25=
+5,255)">
+Would you be interested in being a kind of secondary supervisor?</div>
+<div class=3D"x_elementToProof" style=3D"font-family:Calibri,Arial,Helvetic=
+a,sans-serif; font-size:12pt; color:rgb(0,0,0); background-color:rgb(255,25=
+5,255)">
+Of course, if you don't have time, I fully understand.</div>
+<div class=3D"x_elementToProof" style=3D"font-family:Calibri,Arial,Helvetic=
+a,sans-serif; font-size:12pt; color:rgb(0,0,0); background-color:rgb(255,25=
+5,255)">
+<br>
+</div>
+<div class=3D"x_elementToProof" style=3D"font-family:Calibri,Arial,Helvetic=
+a,sans-serif; font-size:12pt; color:rgb(0,0,0); background-color:rgb(255,25=
+5,255)">
+I think that your responsibilities would mostly just be helping out with si=
+gnal processing if that is needed.</div>
+<div class=3D"x_elementToProof" style=3D"font-family:Calibri,Arial,Helvetic=
+a,sans-serif; font-size:12pt; color:rgb(0,0,0); background-color:rgb(255,25=
+5,255)">
+<br>
+</div>
+<div class=3D"x_elementToProof" style=3D"font-family:Calibri,Arial,Helvetic=
+a,sans-serif; font-size:12pt; color:rgb(0,0,0); background-color:rgb(255,25=
+5,255)">
+Also, if you know anyone who could help me create the antenna I need, I wou=
+ld greatly appreciate that.</div>
+<div class=3D"x_elementToProof" style=3D"font-family:Calibri,Arial,Helvetic=
+a,sans-serif; font-size:12pt; color:rgb(0,0,0); background-color:rgb(255,25=
+5,255)">
+<br>
+</div>
+<div class=3D"x_elementToProof" style=3D"font-family:Calibri,Arial,Helvetic=
+a,sans-serif; font-size:12pt; color:rgb(0,0,0); background-color:rgb(255,25=
+5,255)">
+Best regards</div>
+<div class=3D"x_elementToProof" style=3D"font-family:Calibri,Arial,Helvetic=
+a,sans-serif; font-size:12pt; color:rgb(0,0,0); background-color:rgb(255,25=
+5,255)">
+- Vetle</div>
+</div>
+</body>
+</html>
+
+--_000_SVAP279MB0221F6A8C83D0FFD1CC2C6CAD83F9SVAP279MB0221NORP_--

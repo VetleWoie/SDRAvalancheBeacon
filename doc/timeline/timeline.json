@@ -1,0 +1,57 @@
+[
+    {
+        "Work": "Create antenna",
+        "Start": "2023-01-09",
+        "End": "2023-02-12",
+        "Color": "#ED254E"
+    },
+    {
+        "Work": "State of the art review",
+        "Start": "2023-01-16",
+        "End": "2023-02-12",
+        "Color": "#F9DC5C"
+
+    },
+    {
+        "Work": "Technical background",
+        "Start": "2023-02-13",
+        "End": "2023-02-26",
+        "Color": "#F9DC5C"
+    },
+    {
+        "Work": "Development",
+        "Start": "2023-02-27",
+        "End": "2023-04-09",
+        "Color": "#ED254E"
+    },
+    {
+        "Work": "Design",
+        "Start": "2023-02-27",
+        "End": "2023-03-18",
+        "Color": "#F9DC5C"
+    },
+    {
+        "Work": "Implementation",
+        "Start": "2023-03-27",
+        "End": "2023-04-09",
+        "Color": "#F9DC5C"
+    },
+    {
+        "Work": "Experiments",
+        "Start": "2023-04-10",
+        "End": "2023-04-28",
+        "Color": "#ED254E"
+    },
+    {
+        "Work": "Evaluation and discussion",
+        "Start": "2023-04-29",
+        "End": "2023-05-14",
+        "Color": "#F9DC5C"
+    },
+    {
+        "Work": "Review period",
+        "Start": "2023-05-15",
+        "End": "2023-06-01",
+        "Color": "#C2EABD"
+    }
+]
