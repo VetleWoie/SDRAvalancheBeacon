@@ -20,4 +20,18 @@
             - Slab- vs loose- avalanches?
                 - Slab is the one that kills
 
-            
+1. Problem
+    - Avalanches
+    - People die
+2. Avalanche dynamics
+    - Material properties of snow
+    - Loose avalanches
+    - Slab avalanches
+3. Current day rescue techniques
+    - Avlanche beacons
+    - Snow probes
+    - Digging
+    - Recco
+
+    
+    
