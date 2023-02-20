@@ -1,0 +1,29 @@
+airspyhf_rx
+S/N 0xC852405D8A4A2590
+Frequency: -f 0.457000MHz (457000 Hz)
+#samples -n 10000000 (10M)
+0.768000 MS/s IQ
+Device Serial Number: 0xC852405D8A4A2590
+HF AGC OFF
+HF AGC threshold ignored as AGC is disabled.
+HF Attenuator value: -0 dB
+HF LNA ON
+Stop with Ctrl-C
+Streaming at 0.768 MS/s
+Streaming at 0.768 MS/s
+Streaming at 0.768 MS/s
+Streaming at 0.768 MS/s
+Streaming at 0.768 MS/s
+Streaming at 0.767 MS/s
+Streaming at 0.768 MS/s
+Streaming at 0.762 MS/s
+Streaming at 0.767 MS/s
+Streaming at 0.768 MS/s
+Streaming at 0.768 MS/s
+Streaming at 0.768 MS/s
+Streaming at 0.768 MS/s
+
+Exiting...
+Total time: 13.6294 s
+Average speed 0.7676 MS/s IQ
+done
