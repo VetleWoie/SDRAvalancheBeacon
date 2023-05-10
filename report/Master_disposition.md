@@ -35,6 +35,10 @@
     -DFT
     -FFT
 
+## SDR
+- Decimation
+- Linear low noise amplifier
+
 ## Antenna design
 - Dipole antenna
 - Ferrite core antenna
