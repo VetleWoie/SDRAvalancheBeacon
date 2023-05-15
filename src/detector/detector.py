@@ -149,6 +149,11 @@ def beacon_power(
     freq_vec2=f_vec[fidx]
     pwr=pwr[fidx,:]
 
+    # # Estimate noise using median of signal
+    # noise = np.median(pwr, axis=1).reshape(-1,1)
+
+    # #Calculate SNR
+    # pwr = (pwr - noise) / noise
     # remove median power to remove constant tones
     for fi in range(pwr.shape[0]):
         # signal to noise ratio for each frequency bin
@@ -208,6 +213,6 @@ def beacon_power(
 if __name__ == "__main__":
     data = np.fromfile(sys.argv[1], dtype=np.complex64)
     
-    beacon_blip_power_for_mapping,beacon_blip_power_for_detection = beacon_power(data,768e3,500e3, 457e3)
+    beacon_blip_power_for_mapping,beacon_blip_power_for_detection = beacon_power(data,768e3,500e3, 457e3, plot=True)
     print(f"Beacon blip detection power: {beacon_blip_power_for_detection}")
     print(f"Beacon blip power: {beacon_blip_power_for_mapping}")
