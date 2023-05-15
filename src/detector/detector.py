@@ -114,7 +114,7 @@ def vectorized_specgram(x, nfft, step, fs, window_func = signal.hann, dtype=None
 
     if mode == 'PSD':
         # If wanted type is PSD return the power of the spectogram 
-        Sxx = np.abs(Sxx)**2
+        Sxx = np.abs(Sxx)**2.0
     elif mode == 'magnitude':
         Sxx = np.abs(Sxx)
     elif mode == 'complex':
@@ -131,6 +131,15 @@ def vectorized_specgram(x, nfft, step, fs, window_func = signal.hann, dtype=None
     vectorized_specgram.wisdom_exists = True
     return f_vec, t_vec, Sxx 
 
+def spectrogram(z,nfft=77000,step=770,sr=768e3,wf=signal.hann(77000)):
+    n_steps=int((len(z)-nfft)//step)
+    Sxx=np.zeros([nfft,n_steps])
+    tvec=np.arange(n_steps)*step/sr
+    fvec=np.fft.fftshift(np.fft.fftfreq(nfft,d=1/sr))
+
+    for i in range(n_steps):
+        Sxx[:,i]=np.fft.fftshift(np.abs(np.fft.fft(z[(i*step):(i*step+nfft)]*wf))**2.0)
+    return(tvec,fvec,Sxx)
 
 def beacon_power(
     x,
@@ -139,22 +148,26 @@ def beacon_power(
     f, # Frequency of interest
     max_freq_dev=1000,
     fft_step=20000,
+    nfft = 77000,
     plot = False
 ):
     fo = f - fc
-    f_vec, t_vec, pwr = vectorized_specgram(x, nfft=77000, step=fft_step, fs=fs, mode='PSD')
+    # f_vec, t_vec, Sxx = vectorized_specgram(x, nfft=nfft, step=fft_step, fs=fs, mode='complex')
+    t_vec,f_vec,Sxx=spectrogram(x,sr=fs,nfft=nfft,step=fft_step,wf=signal.hann(77000))
+
 
     # Extract only frequencies indices of interest
     fidx=np.where( np.abs(f_vec - fo) < max_freq_dev)[0]
-    freq_vec2=f_vec[fidx]
-    pwr=pwr[fidx,:]
+    freq_vec2=f_vec[fidx]+500e3
+    # pwr=pwr[fidx,:]
+    pwr=np.abs(Sxx[fidx,:])**2.0
 
     # # Estimate noise using median of signal
     # noise = np.median(pwr, axis=1).reshape(-1,1)
 
     # #Calculate SNR
     # pwr = (pwr - noise) / noise
-    # remove median power to remove constant tones
+    # # remove median power to remove constant tones
     for fi in range(pwr.shape[0]):
         # signal to noise ratio for each frequency bin
         pwr[fi,:]=(pwr[fi,:]-np.median(pwr[fi,:]))/np.median(pwr[fi,:])
